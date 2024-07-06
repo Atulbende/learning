@@ -81,23 +81,73 @@
 
     <div class="container">
         <div class="question" id="question1">
-            <h2>Question 1: What is HTML?</h2>
+            <h2>Question 1: What is Semantic and non Semantic tags?</h2>
             <div class="answer">
-                <p>HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications. HTML describes the structure of a web page using markup. Elements are the building blocks of HTML pages. They are represented by tags.</p>
+            <p><b>Semantic</b> tags clearly describe their meaning in a human- and machine-readable way. These tags make the HTML document more readable, both by humans and by browsers and search engines.</p>
+            <p><b>Non-semantic</b> tags do not provide information about the content. They are general-purpose tags used for styling or structuring the HTML document but without semantic meaning.</p>
+            <b>Semantic</b>
+            <ul>
+                <li><strong>article:</strong> Represents a self-contained composition that can be independently distributed or reused, such as a blog post, news article, or forum post.</li>
+                <li><strong>section:</strong>Defines a thematic grouping of content, typically with a heading, which can be related to a specific topic or purpose within a larger document.</li>
+                <li><strong>header:</strong> Defines a header section at the top of a document or section, often containing introductory content, logos, navigation links, etc.</li>
+                <li><strong>footer:</strong>Defines a footer section at the bottom of a document or section, often containing copyright information, contact details, etc.</li>
+                <li><strong>nav:</strong> Represents a section of navigation links that provide navigation within the document or to other documents.</li>
+                <li><strong>aside:</strong>Defines content aside from the main content, often presented as a sidebar or complementary information related to the main content.</li>
+                <li><strong>main:</strong>Specifies the main content area within a document, excluding headers, footers, and navigation links.</li>
+                <li><strong>figure:</strong>Represents any content that is referenced from the main content, such as images, diagrams, photos, code snippets, etc., often with a caption (<figcaption>).</li>
+                <li><strong>figcaption:</strong> Provides a caption or description for a figure</li>
+                <li><strong>time:</strong>Represents a specific date and/or time, typically used to mark up dates, times, or durations in a machine-readable format.</li>
+            
+                </ul>
+                <b>Non Semantic</b>
+                <ul>
+                    <li>div,font,center,i,b,br,hr,span,ifream</li>
+                </ul>
+             </div>
+       
             </div>
-        </div>
 
         <div class="question" id="question2">
-            <h2>Question 2: What is CSS?</h2>
+            <h2>Question 2:diffrence between html element and tag</h2>
             <div class="answer">
-                <p>CSS stands for Cascading Style Sheets. It describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work because it can control the layout of multiple web pages all at once.</p>
-            </div>
+                <p>An HTML tag is a specific set of characters that denote the beginning and end of an HTML element. Tags are used to mark up the start and end of an HTML element and are enclosed in angle brackets (<>). Tags can be opening tags, closing tags, or self-closing tags.
+
+                </p></div>
         </div>
 
         <div class="question" id="question3">
-            <h2>Question 3: What is JavaScript?</h2>
+            <h2>Question 3: what is meta Tag</h2>
             <div class="answer">
-                <p>JavaScript is a programming language commonly used in web development. It is a high-level, interpreted language that allows you to implement complex features on web pages. JavaScript can update and change both HTML and CSS, and it can calculate, manipulate and validate data.</p>
+                <p>The <meta> tag in HTML is used to provide metadata about the HTML document. Metadata is data that describes other data and is not displayed on the page itself. Instead, it is used by browsers, search engines, and other web services to understand the content and behavior of a web page. The <meta> tag is placed within the <head> section of an HTML document.</p>
+                <strong><"meta charset="UTF-8""></strong><br>
+                <strong><"meta name="description" content="A concise description of the webpage""></strong><br>
+                <strong><"meta name="viewport" content="width=device-width, initial-scale=1.0""></strong><br>
+                <strong><"meta name="keywords" content="HTML, meta tags, SEO, web development""></strong><br>
+                <strong><"meta http-equiv="refresh" content="30""></strong><br>
+                <strong><"meta http-equiv="refresh" content="30""></strong><br>
+                <p>
+                    SEO (Search Engine Optimization): <meta> tags like description and keywords were traditionally used to help search engines understand the content of a webpage. However, search engines now prioritize other signals and may not heavily rely on these tags anymore.
+
+Setting Character Encoding: <meta charset="UTF-8"> ensures that the browser knows how to interpret the characters in the document correctly.
+
+Viewport Control: <meta name="viewport" content="width=device-width, initial-scale=1.0"> is crucial for responsive web design, ensuring that websites look good and are usable on a variety of devices, from mobile phones to desktops.
+
+Browser Compatibility: Certain <meta> tags may be used to specify compatibility modes for older versions of Internet Explorer or to prevent compatibility issues.
+
+Social Media Sharing: Some <meta> tags, like og:title, og:description, og:image, are used for social media sharing, allowing platforms like Facebook to display rich previews of shared links.
+                </p>
+            </div>
+        </div>
+        <div class="question" id="question4">
+            <h2>Question 4:what is inline element and block element and diffrence between inline element and block element </h2>
+            <div class="answer">
+                <p>Inline elements in HTML, such as <"span">, <"a">, and <"em">, do not start on new lines and occupy only as much width as necessary within a line of text. They flow inline with surrounding content, allowing for inline formatting and small, stylistic elements like links and emphasized text. In contrast, block-level elements like <"div">, <"p">, and <"h1"> start on new lines and occupy the full width available to them by default. They create distinct blocks of content, allowing for structural organization, layout control, and the application of margins, padding, and borders. Block-level elements are fundamental for defining the layout and structure of web pages, while inline elements are used for finer text-level formatting and inline styling within larger content blocks.</p>
+            </div>
+        </div>
+        <div class="question" id="question5">
+            <h2>Question 5: what is DOCTYPE </h2>
+            <div class="answer">
+                <p>The DocType declaration in HTML is an essential instruction placed at the beginning of a web page to specify the version of HTML (or XHTML) being used. It informs the web browser how to interpret and render the content by defining the rules and standards that the document follows. For example, <!DOCTYPE html> is the declaration used for HTML5, indicating to browsers that the page conforms to the latest HTML standards. Correctly specifying the DocType ensures consistent rendering across different browsers and devices, helps maintain compatibility, and ensures that the page is interpreted according to modern web standards rather than falling back to older, potentially inconsistent rendering modes.</p>
             </div>
         </div>
     </div>
