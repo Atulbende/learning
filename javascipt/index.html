@@ -100,6 +100,24 @@
                 <p>JavaScript is a programming language commonly used in web development. It is a high-level, interpreted language that allows you to implement complex features on web pages. JavaScript can update and change both HTML and CSS, and it can calculate, manipulate and validate data.</p>
             </div>
         </div>
+        <p>let arr = [1,2,4,5,10,20,25,34,35,3,5,6];
+            const duplicates={};
+            const dup=[]
+            const getDuplicates=()=>{
+                arr.forEach((v,i)=>{
+                    if(duplicates[v]){
+                        duplicates[v]=duplicates[v]+1;
+                    }else{
+                        duplicates[v]=1;
+                    }
+                })
+            for(let i of Object.keys(duplicates)){
+                if(duplicates[i]==1)dup.push(i)
+                // console.log(duplicates[i])
+            }
+            }
+            getDuplicates()
+            console.log(dup)</p>
     </div>
 </body>
 </html>
